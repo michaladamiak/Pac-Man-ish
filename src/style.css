@@ -40,8 +40,24 @@ body {
 .player {
     width: 20px;
     height: 20px;
-    background-color: yellow;
+    background-image: url(img/close.png);
     border-radius: 50%;
+}
+
+.open-right {
+    background-image: url(img/open-right.png);
+}
+
+.open-left {
+    background-image: url(img/open-left.png);
+}
+
+.open-up {
+    background-image: url(img/open-up.png);
+}
+
+.open-down {
+    background-image: url(img/open-down.png);
 }
 
 .ball {
@@ -64,28 +80,28 @@ body {
     width: 20px;
     height: 20px;
     /* border-radius: 30%; */
-    background-color: crimson;
+    background-image: url(img/red.png);
 }
 
 .enemy2 {
     width: 20px;
     height: 20px;
     /* border-radius: 30%; */
-    background-color: green;
+    background-image: url(img/green.png);
 }
 
 .enemy3 {
     width: 20px;
     height: 20px;
     /* border-radius: 30%; */
-    background-color: palevioletred;
+    background-image: url(img/pink.png);
 }
 
 .enemy4 {
     width: 20px;
     height: 20px;
     /* border-radius: 30%; */
-    background-color: peru;
+    background-image: url(img/orange.png);
 }
 
 .restart {
